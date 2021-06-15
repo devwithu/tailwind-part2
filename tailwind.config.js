@@ -29,7 +29,10 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    backgroundColor: ['dark', 'group-hover', 'focus-within', 'hover', 'focus'],
+    extend: {
+      width: ['hover']
+    },
   },
   plugins: [
     require("tailwindcss-debug-screens"),
