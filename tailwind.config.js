@@ -2,6 +2,9 @@ module.exports = {
   presets: [
     require('./company_sstyles')
   ],
+  corePlugins: {
+    float: false,
+  },
   purge: {
     enabled: true,
     content: ['./dist/**/*.html'],
